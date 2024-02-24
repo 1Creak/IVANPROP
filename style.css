@@ -23,3 +23,6 @@ section{
 .games a{
     text-align: center;
 }
+.games img{
+    height: 100%;
+}
