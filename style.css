@@ -25,7 +25,7 @@ section{
     text-decoration: none;
     color: black;
     background-color: aquamarine;
-    font-size: 20px;
+    margin: 20px;
 }
 .games img{
     height: 100%;
@@ -33,4 +33,7 @@ section{
 
 footer{
     display: flex;
+        align-items: center;
+    color: white;
+    justify-content: space-around;
 }
