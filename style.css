@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background:#5AAF4A;
+}
+
+table{
+    text-align: right;
+    background-color: white;
+    border:1px solid black;  
+}
+section{
+    border: 3px solid black;
+} 
+.games{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.games a{
+    text-align: center;
+}
