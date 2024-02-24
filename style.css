@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-header{
+header,footer{
     background:#5AAF4A;
 }
 
@@ -31,3 +31,6 @@ section{
     height: 100%;
 }
 
+footer{
+    display: flex;
+}
