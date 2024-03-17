@@ -71,6 +71,10 @@ footer{
 display: flex;
 justify-content: center;
 margin: 10px;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    margin: 10px auto;
 }
 footer table{
     border: darkred solid 5px;
