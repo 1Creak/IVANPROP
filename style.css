@@ -1,76 +1,194 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-header img{
-width: 200px;    
-}
-footer{
-    padding: 20px;
-
-}
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-header nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+html{
+    scroll-behavior: smooth;
 }
 
 header a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color:#630000;
-    color: #EEEBDD;
-    font-size: 15px;
-    font-weight: 700;
-    border: 1px solid #630000;
-    border-radius: 10px;
-    text-decoration: none;
-    padding: 15px 10px;
-    margin: 10px;
-    width: 90px;
+  text-decoration: none;
+  color: inherit;
+  font-size: 20px;
+  
 }
 
-header a:hover {
-    background-color: #EEEBDD;
-    color: #630000;
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+  color: azure;
 }
-nav a{
-    background-color: red;
-    border-radius: 100px;
-    color: white;
-    padding: 10px;
-    margin: 30px;
-    text-decoration: none;
+
+nav ul {
+  width: 100%;
+  height: 50px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-around;
+  font-family: arial, sans serif;
+  font-style: italic;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-stretch: ultra-condensed;
 }
-h1{
-    color: red;
+
+.tel {
+  align-items: center;
+  color: azure;
+  width: 100%;
+  
+}
+
+header img{
+width: 90px;    
+}
+
+header{
+   background-color: red;
+   padding: 30px 0;
+   text-align: center;
+}
+
+header h1 {
     font-size: 40px;
+    color: white;
     text-align: center;
 }
-main p{
+
+.hero p {
+    color: white;
+    font-size: 30px;
     text-align: center;
-    color: rgb(189, 28, 0);
-    font-size: 25px;
+    padding-top: 30px;
 }
-.sigma{
-font-family:Bradley Hand, cursive;
+
+.img {
+    position: relative;
 }
-div{
-    font-family: Trattatello, fantasy;
+
+main {
+    background-image:linear-gradient(red, darkred);
 }
-main img{
+
+.hero {
+     background-image:linear-gradient(black, gray);
+     text-align: center;
+     
+}
+
+main h1 {
+color: white;
+font-size: 50px;
+text-align: center;
+padding-bottom: 10px;
+}
+
+main a {
+display: block;
+text-decoration: none;
+color: white;
+font-size: 40px;
+
+}
+
+main h2 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.text {
+ color: rgb(230, 218, 198);
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.info {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+
+.section {
+    
+}
+
+footer {
+    color: grey;
+    text-align: center;
+    padding-bottom: 25px;
+    background-image:linear-gradient(black, rgb(32, 29, 29));
+}
+
+footer p{
+    padding-top: 25px;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.menu-item{
+        transition: 0.5s;
+    background-color: white;
+    width: 170px;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.menu-item img{
+    width: 100px;
+}
+.menu-item a{
+    color: black;
+    font-size: 18px;
+}
+.menu-item:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    box-shadow: 0px 1px 40px;
+}
+
+.reklama {
+    background-image: url(https://img.freepik.com/free-photo/a-painting-of-sushi-and-a-plate-with-a-picture-of-a-fish-on-it_188544-12221.jpg?size=626&ext=jpg&ga=GA1.1.1788068356.1706140800&semt=ais);
     width: 100%;
-    height: 300px;
+    background-size: cover;
 }
-footer{
-    background-color: red;
-    margin:auto;
-    color: #EEEBDD;
+
+.iphone {
+    height: 500px;
+    padding-top: 50px;
+}
+
+.playmarket img{
+    height: 100px;
+    position: relative;
+    left: 320px;
+    display: block;
+    padding-bottom: 20px;
+    top: -250px;
+}
+
+iframe {
+width: 100%;}
+
+nav a:hover {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    transition: .5s;
+}
+
+.arrow img {
+    width: 90px;
 }
